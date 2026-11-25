@@ -1,0 +1,114 @@
+{
+ "g1000_0234": {
+  "966a2a9a": "ref",
+  "7e17ba69": "anchor",
+  "4009bd9b": "gslm",
+  "15291381": "ours1",
+  "01d9d9a9": "ours16",
+  "df4f8cf5": "casc"
+ },
+ "g1000_0072": {
+  "805eeeac": "ref",
+  "cbbc03f6": "anchor",
+  "69ba94dc": "gslm",
+  "5672815b": "ours1",
+  "2ba80681": "ours16",
+  "e611f75b": "casc"
+ },
+ "g1000_0230": {
+  "e639bb92": "ref",
+  "49108fb8": "anchor",
+  "c10600ce": "gslm",
+  "f24053b5": "ours1",
+  "fd8ca1a3": "ours16",
+  "075c4b45": "casc"
+ },
+ "g1000_0058": {
+  "02543f47": "ref",
+  "6f687c04": "anchor",
+  "c7eef7d9": "gslm",
+  "b8e8ca77": "ours1",
+  "9f295a8f": "ours16",
+  "601af1a5": "casc"
+ },
+ "g1000_0067": {
+  "07909855": "ref",
+  "1dc022b5": "anchor",
+  "0b41611e": "gslm",
+  "1eaf34be": "ours1",
+  "4c561f6d": "ours16",
+  "f0a94b85": "casc"
+ },
+ "g1000_0198": {
+  "f9fcfda2": "ref",
+  "ba999e17": "anchor",
+  "fd2f493c": "gslm",
+  "949b1498": "ours1",
+  "b2ddf5cb": "ours16",
+  "145a9cb4": "casc"
+ },
+ "g1000_0188": {
+  "0b8e0b57": "ref",
+  "a16015bf": "anchor",
+  "2af7787f": "gslm",
+  "524ccef9": "ours1",
+  "6b698bf1": "ours16",
+  "30fd296f": "casc"
+ },
+ "g1000_0215": {
+  "8145e147": "ref",
+  "66850403": "anchor",
+  "e4705756": "gslm",
+  "6039356d": "ours1",
+  "da7df654": "ours16",
+  "ed059963": "casc"
+ },
+ "g1000_0202": {
+  "cab0aa85": "ref",
+  "fc8f59b3": "anchor",
+  "f9d83a70": "gslm",
+  "a4981ccc": "ours1",
+  "f7715868": "ours16",
+  "72cef6f0": "casc"
+ },
+ "g1000_0049": {
+  "925bfdfe": "ref",
+  "0cdaeaf0": "anchor",
+  "5bf398d7": "gslm",
+  "ef68f981": "ours1",
+  "f9449d3f": "ours16",
+  "9af76510": "casc"
+ },
+ "g1000_0208": {
+  "51c182f9": "ref",
+  "5ba4a201": "anchor",
+  "53cab287": "gslm",
+  "f8e7a787": "ours1",
+  "1ed4df66": "ours16",
+  "fed0aa64": "casc"
+ },
+ "g1000_0250": {
+  "d1da65a4": "ref",
+  "106b2a0f": "anchor",
+  "af302a81": "gslm",
+  "86566193": "ours1",
+  "4f2a8d8e": "ours16",
+  "b6477f84": "casc"
+ },
+ "g1000_0020": {
+  "b5ce7f47": "ref",
+  "302dad93": "anchor",
+  "331ea1a5": "gslm",
+  "85b27089": "ours1",
+  "4766cc3c": "ours16",
+  "dc129a55": "casc"
+ },
+ "g1000_0283": {
+  "9706291b": "ref",
+  "ac0614a9": "anchor",
+  "088a5777": "gslm",
+  "5bf08e98": "ours1",
+  "0e0fa2d5": "ours16",
+  "b5d05a72": "casc"
+ }
+}

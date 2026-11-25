@@ -1,0 +1,51 @@
+== screening: 20 result files, 18 listeners kept
+10           listen_v4_3_10_1794979861686.json        kept
+11           listen_v4_3_11_1794980239680.json        kept
+12           listen_v4_3_12_1794980562028.json        kept
+13           listen_v4_3_13_1794980882024.json        kept
+14           listen_v4_3_14_1794981152254.json        EXCLUDED: zero fill rated >= 4 in 3 sentences
+15           listen_v4_3_15_1794981536153.json        EXCLUDED: zero fill rated >= 4 in 3 sentences
+16           listen_v4_3_16_1794998881086.json        kept
+17           listen_v4_3_17_1794999307081.json        kept
+18           listen_v4_3_18_1795000341270.json        kept
+19           listen_v4_3_19_1795000616684.json        kept
+1            listen_v4_3_1_1794919450944.json         kept
+20           listen_v4_3_20_1795000885140.json        kept
+2            listen_v4_3_2_1794969488911.json         kept
+3            listen_v4_3_3_1794970474376.json         kept
+4            listen_v4_3_4_1794970868217.json         kept
+5            listen_v4_3_5_1794971231305.json         kept
+6            listen_v4_3_6_1794976662346.json         kept
+7            listen_v4_3_7_1794978956845.json         kept
+8            listen_v4_3_8_1794979289881.json         kept
+9            listen_v4_3_9_1794979604012.json         kept
+   ratings given after hearing the version to the end at least once: 831/1296 (64%); rating unlocks at the start of playback
+
+== mean naturalness (1-5), 18 listeners x 12 sentences, 95% CI crossed bootstrap (listeners and sentences, 10k)
+  hidden original          4.99 [4.95, 5.00]
+  zero fill                1.45 [1.02, 2.07]
+  GSLM-style units         1.10 [1.00, 1.28]
+  OneFill, 1 step          4.23 [3.73, 4.66]
+  OneFill, 16 steps        3.53 [3.06, 4.00]
+  cascade (ASR+LLM+TTS)    4.47 [4.01, 4.85]
+
+== planned comparisons: OneFill 1 step minus each other version; crossed bootstrap (primary) and Wilcoxon over listener means (secondary), Holm over 5 each
+  vs GSLM-style units         diff +3.12 [+2.56, +3.61]  p_Holm(boot)=0.0005*   p_Holm(Wilcoxon, listeners)=0.000938
+  vs cascade (ASR+LLM+TTS)    diff -0.24 [-0.93, +0.44]  p_Holm(boot)=0.488   p_Holm(Wilcoxon, listeners)=0.00196
+  vs OneFill, 16 steps        diff +0.69 [+0.14, +1.27]  p_Holm(boot)=0.0278*   p_Holm(Wilcoxon, listeners)=0.000938
+  vs zero fill                diff +2.77 [+1.95, +3.45]  p_Holm(boot)=0.0005*   p_Holm(Wilcoxon, listeners)=0.000938
+  vs hidden original          diff -0.76 [-1.25, -0.32]  p_Holm(boot)=0.0005*   p_Holm(Wilcoxon, listeners)=0.000938
+
+== metrics vs mean rating, all versions, 72 stimuli, Spearman [95% CI, sentence bootstrap 2000]
+  utmos_g      rho +0.86 [+0.78, +0.92]
+  utmos        rho +0.75 [+0.65, +0.84]   UTMOS-g minus this +0.10 [-0.00, +0.22]
+  plcmos       rho +0.51 [+0.37, +0.68]   UTMOS-g minus this +0.33 [+0.17, +0.46]
+  dnsmos_ovrl  rho +0.28 [+0.09, +0.46]   UTMOS-g minus this +0.57 [+0.39, +0.75]
+  dnsmos_g     rho +0.46 [+0.30, +0.61]   UTMOS-g minus this +0.40 [+0.28, +0.52]
+
+== metrics vs mean rating, filled systems only (ref, anchor removed), 48 stimuli, Spearman [95% CI, sentence bootstrap 2000]
+  utmos_g      rho +0.78 [+0.66, +0.88]
+  utmos        rho +0.70 [+0.56, +0.82]   UTMOS-g minus this +0.08 [-0.01, +0.17]
+  plcmos       rho +0.46 [+0.27, +0.67]   UTMOS-g minus this +0.29 [+0.06, +0.48]
+  dnsmos_ovrl  rho +0.26 [-0.00, +0.48]   UTMOS-g minus this +0.52 [+0.31, +0.72]
+  dnsmos_g     rho +0.34 [+0.02, +0.58]   UTMOS-g minus this +0.45 [+0.24, +0.68]
